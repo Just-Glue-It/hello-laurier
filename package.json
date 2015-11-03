@@ -36,7 +36,9 @@
   "author": {
     "name": "Apache Software Foundation"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cordova": "^5.3.3"
+  },
   "description": "This is the hello world app used by the `cordova create` command.",
   "devDependencies": {},
   "directories": {},

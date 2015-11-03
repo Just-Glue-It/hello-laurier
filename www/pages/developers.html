@@ -8,27 +8,28 @@
     <link rel="stylesheet" type="text/css" href="jquery/jquery.mobile-1.4.5.min.css">
     <script src="jquery/jquery-1.11.3.min.js"></script>
     <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
-    <title>Hello Laurier</title>
+    <title>Group Members</title>
   </head>
   <body>
     <div data-role="page">
-      <div data-role="header" data-theme="a">
-        <h1>Hello Laurier</h1>
+      <div class="ui-header" data-role="header">
+        <a href="../index.html" data-icon="back">Back</a>
+        <h1>Group Members</h1>
+        <a href="../index.html" data-icon="home">Home</a>
       </div>
 
-      <div data-role="main" class="ui-content">
-        <center>
-          <p>
-            CP317 Project Group Information<br>
-            Click on the image! <br>
-            <a href="pages/developers.html"><img src="img/logo.jpg" height="192" width="256"></a>
-         </p>
-        </center>
-      </div>
+      <ul data-role="listview" data-filter="true" data-filter-placeholder="Search group members..." data-inset="true">
+        <li>
+          <a href="#">David Rusu</a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="../img/scott.jpg">
+            <h2>Scott King</h2>
+            <p>Software Developer</p>
+          </a>
+        </li>
+      </ul>
     </div>
-
-
-    <!-- <script type="text/javascript" src="cordova.js"></script> -->
-    <!-- <script type="text/javascript" src="js/index.js"></script> -->
   </body>
 </html>
